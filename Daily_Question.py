@@ -1,4 +1,4 @@
-# Day 2264 Largest 3-Same-Digit Number in String
+# 2264 Largest 3-Same-Digit Number in String
 
 def largestGoodInteger(self, num):
 	"""
@@ -20,3 +20,7 @@ def largestGoodInteger(self, num):
 					current_best = number
 	
 	return "" + current_best + current_best + current_best
+
+# 1688 Count of Matches in Tournament
+def numberOfMatches(self, n):
+        return n-1
