@@ -24,3 +24,14 @@ def largestGoodInteger(self, num):
 # 1688 Count of Matches in Tournament
 def numberOfMatches(self, n):
         return n-1
+
+# 1662 Check If Two String Arrays are Equivalent
+def arrayStringsAreEqual(self, word1, word2):
+	word1ans = "".join(word1)
+	
+	word2ans = "".join(word2)
+	    
+	if word1ans == word2ans:
+	    return True
+	else:
+	    return False
